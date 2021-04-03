@@ -6,7 +6,7 @@ Steps:
 2. Mention the installed location of Tesseract-OCR in your system
 3. Read image from which text needs to be extracted
 4. Convert the image to gray scale
-5. Performing OTSU threshold
+5. Performing OTSU threshold or we can use any other thresholding methods like adaptive thresholding, binary thresholding
 6. Select a rectangular kernel for selecting text from an image
 7. Apply Dilation
 8. Find Contours
