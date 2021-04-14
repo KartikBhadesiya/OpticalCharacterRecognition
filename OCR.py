@@ -47,6 +47,6 @@ def OCR(img):
         file.close
 
 img = cv2.imread('image3.png')
-# cv2.imshow("img",img)
-# cv2.waitKey(0)
+cv2.imshow("img",img)
+cv2.waitKey(0)
 OCR(img)
